@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <meta charset="UTF-8">
+	  <title>Smash Faces</title>
+	  <link rel="stylesheet" href="css/main.css">
+	  <link rel="stylesheet" href="css/bootstrap.min.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9">
+					<center>
+						<h1>SMASH FACES</h1>
+					</center>
+					<p>Bienvenidas al juego de smash faces, tu misión es poder identificar a todas tus compañeras de clase ingresando para ello su nombre. Tienes 5 oportunidades antes de perder 1 punto y pasar a la siguiente.</p>
+				</div>
+				<div id="contenedorJuego">
+					<div class="sede col-md-4 col-sm-12">
+						<span>Elige tu sede:</span>
+						<select>
+						  <option id="México">México</option> 
+						  <option id="Perú" >Perú</option>
+						  <option id="Lima">Lima</option>
+						  <option id="Lima">Chile</option>
+						</select>	
+						<img id="imagenPersona" class="img-responsive" src="">
+					</div>
+					<div class="form col-md-8 col-sm-12">
+						<input type="text" id="inputNombre" class="form-control" placeholder="Nombre de la Alumna">
+						<a id="btnComprobar" class="btn btn-primary">Comprobar</a>
+						<h2 id="puntos">Puntos: </h2>
+					</div>	
+				</div>	
+			</div>
+		</div>
+		
+		<!-- CDN -->
+		<!-- // <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script> -->
+
+		<!-- Incluimos biblioteca -->
+		<script type="text/javascript" src="js/jquery-1.12.3.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+	</body>
+</html>
